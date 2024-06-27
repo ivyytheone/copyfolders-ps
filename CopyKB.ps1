@@ -5,7 +5,7 @@ $sourceFolder = "C:\Path\To\Your\Folder"
 $computerListPath = "C:\Path\To\Your\ComputerList.txt"
 
 # Get credentials for admin access (replace 'username' and 'password' with appropriate admin credentials)
-$adminCredentials = Get-Credential -Credential "ScriptNamn?" "123"
+$adminCredentials = Get-Credential -Credential "Username" "Password"
 
 # Read the list of computer names from the text file
 $computerNames = Get-Content -Path $computerListPath
